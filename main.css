@@ -5,6 +5,7 @@
   padding-bottom: 3rem;
   margin-bottom: 0;
   background-color: linen;
+ 
   
  
 }
@@ -24,9 +25,14 @@
 }
 
 .jumbotron .container {
-  max-width: 40rem;
+  max-width: 120rem;
+  max-height: 60rem;
   color: black;
-  font-weight: 300; 
+  font-weight: 300;
+  padding-top: 15rem;
+  padding-bottom: 15rem; 
+  background-image: url( "assets/resize2-unsplash.jpg");
+ 
 }
 .lead{
   color: black;
@@ -61,20 +67,29 @@
 
 #about {
   width: 750px;
-  background-color: white;
+  background-color: whitesmoke;
   margin-top: 10;
+  padding: 2rem;
 }
 #mymug {
   width: 300px;
   margin-right: 50;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 2rem;
   border-radius: 50 50 50 50;
 
 }
-body {
-  background-color: linen;
+#computer {
+  width: 400px;
+  position: relative;
+  right: 10px;
+  top:  20px;
+  border: 3px solid #73AD21;
   
+  
+}
+body {
+ 
+  background-color:whitesmoke; 
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
