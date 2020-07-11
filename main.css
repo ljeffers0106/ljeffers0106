@@ -1,0 +1,90 @@
+.jumbotron {
+  color: black;
+  font-weight: 700;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: linen;
+  
+ 
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 600;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+  color: black;
+  font-weight: 300; 
+}
+.lead{
+  color: black;
+  font-weight: 300; 
+}
+.container{
+  text-align: center;
+  padding: 3rem;
+  background-color: linen;
+  border: 5px solid  slategray;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
+}
+.container_foot{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: linen;
+  border: 5px solid  slategray;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
+}
+
+.contact_form {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color:lightgrey;
+  border: 20px solid  white;
+}  
+
+.copyright{
+  text-align: center;
+}
+
+#about {
+  width: 750px;
+  background-color: white;
+  margin-top: 10;
+}
+#mymug {
+  width: 300px;
+  margin-right: 30;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 50 50 50 50;
+
+}
+body {
+  background-color: linen;
+  
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
