@@ -64,10 +64,102 @@
 .copyright{
   text-align: center;
 }
+.blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+}
+  a {
+    color: #343140;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+}
+btn-primary {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
 
+.btn-primary:hover {
+  color: #fff;
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #5d39a0;
+  border-color: #5d39a0;
+  box-shadow: 0 0 0 0.2rem rgba(29, 33, 37, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(45, 62, 80, 0.5);
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #9aa2a8;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #382ebe;
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #282f33;
+  border-color: #0b42f7;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+}
+.card-img-top {
+  border: 3px;
+  border-color: #282f33;
+}
 #about {
   width: 750px;
-  background-color: whitesmoke;
+  background-color: whitesmoke);
   margin-top: 10;
   padding: 3rem;
 }
@@ -83,7 +175,8 @@
   position: relative;
   right: 10px;
   top:  20px;
-  border: 3px solid #73AD21;
+  border: 3px solid hsl(251, 84%, 50%);
+  
 }
    
 
@@ -93,7 +186,10 @@ body {
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 footer {
   padding-top: 3rem;
