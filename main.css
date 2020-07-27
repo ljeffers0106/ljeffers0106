@@ -49,7 +49,7 @@
   background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
 }
 .aboutclass{
-  background-color: linen;
+  background-color: whitesmoke;
   border: 5px solid white;
   overflow: hidden;
 }
@@ -66,7 +66,7 @@
   /*padding-top: 3rem; */ 
   padding: 3rem;
   background-color:linen;
-  border: 20px solid  white;
+  border: 5px solid  white;
 }  
 
 .copyright{
@@ -167,7 +167,7 @@ btn-primary {
 }
 #about {
   width: 750px;
-  background-color: linen;
+  background-color: whitesmoke;
   margin-top: 10;
   padding: 3rem;
   float: left;
@@ -177,6 +177,7 @@ btn-primary {
   margin-right: 50;
   padding: 2rem;
   border-radius: 50 50 50 50;
+  border-color: white;
 }
 
 #computer {
