@@ -38,7 +38,8 @@
 }
 .lead{
   color: black;
-  font-weight: 300; 
+  font-weight: 300;
+  font-size: medium;
 }
 .container{
   clear: both;
@@ -87,7 +88,7 @@
     color: #0056b3;
     text-decoration: underline;
   }
-}
+
 btn-primary {
   color: #fff;
   background-color: #6f42c1;
@@ -166,7 +167,7 @@ btn-primary {
   border-color: #e23f4c;
 }
 #about {
-  width: 750px;
+  width: 700px;
   background-color: whitesmoke;
   margin-top: 10;
   padding: 3rem;
@@ -201,13 +202,16 @@ btn-primary {
   border-radius: 50 50 50 50;
   /* border: 3px solid hsl(251, 84%, 50%); */
   border: 3px solid;
-
 }  
 
 body {
  
-  background-color:whitesmoke; 
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-color:whitesmoke; 
+font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+font-family: 'Rowdies', cursive; 
 }
 
 img {
