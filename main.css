@@ -190,21 +190,36 @@ btn-primary {
   top:  20px;
   margin: 30px;
   margin-right: 100px;
-  border: 3px solid white;
+  border: 3px solid white; 
   
 }
 #mypic {
-  width: 200px;
-  height: 200px;
-  padding: 2rem;
+  width: 300px;
+  height: 300px;
+ /* padding: 2rem; */
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
-  border-radius: 50 50 50 50;
+  /*border-radius: 50 50 50 50; */
   /* border: 3px solid hsl(251, 84%, 50%); */
-  border: 3px solid;
+  /*border: 3px solid; */
 }  
-
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(225, 225, 225, 0.35);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card-text {
+  font-weight: bold;
+}
 body {
  
 background-color:whitesmoke; 
