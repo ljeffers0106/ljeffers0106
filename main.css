@@ -32,7 +32,8 @@
   padding-top: 15rem;
   padding-bottom: 15rem; 
   /*background-image: url( "assets/resize2-unsplash.jpg");*/
-   background-image: url( "assets/habib-dadkhah-oLRC7d5SHLc-unsplash.jpg");
+  /* background-image: url( "assets/habib-dadkhah-oLRC7d5SHLc-unsplash.jpg");*/
+   background-image: url( "assets/Untitleddesign75N.png");
    background-size: cover;
  
 }
@@ -47,7 +48,8 @@
   padding: 3rem;
   background-color: linen;
   border: 5px solid  white;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
+ /* background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");*/
+  background-image: url("assets/mike-c-s-7HlJkjH3k60-unsplash.jpg");
 }
 .aboutclass{
   background-color: whitesmoke;
@@ -60,16 +62,15 @@
   padding-bottom: 3rem;
   background-color: linen;
   border: 5px solid  white;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
+ /*background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");*/
+ background-image: url("assets/mike-c-s-7HlJkjH3k60-unsplash.jpg");
 }
-
 .contact_form {
   /*padding-top: 3rem; */ 
   padding: 3rem;
   background-color:linen;
   border: 5px solid  white;
 }  
-
 .copyright{
   text-align: center;
   margin-bottom: .25rem;
@@ -196,13 +197,12 @@ btn-primary {
 #mypic {
   width: 200px;
   height: 200px;
- /* padding: 2rem; */
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
-  /*border-radius: 50 50 50 50; */
-  /* border: 3px solid hsl(251, 84%, 50%); */
-  /*border: 3px solid; */
+}  
+.ProjectPic2 {
+  border-radius: 50 50 50 50; 
 }  
 .card {
   position: relative;
